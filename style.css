@@ -54,3 +54,22 @@ header{
     font-size: 23px;
 
 }
+
+
+
+
+@media (max-width: 768){
+
+.texto1{
+    color: white;
+    max-width: 400px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+
+
+
+}
