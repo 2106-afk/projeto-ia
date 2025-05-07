@@ -8,8 +8,7 @@
 
 header{
     background-color: black;
-    width: 100vw;
-    border-bottom:  1px solid white;
+    border-bottom:  1px solid #abd1c6;
 }
 
 .conteiner{
@@ -37,10 +36,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
     background-color: black;
     gap: 10px;
+    padding-top: 110px;
+    padding-bottom: 65px;
 }
 
 .foto1{
@@ -49,11 +48,69 @@ header{
 }
 
 .texto1{
-    color: white;
+    color: #fef6e4;
     max-width: 400px;
     font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
+
+.box{
+    background-color: #abd1c6;
+    height: 190px;
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    color: black;
+    border-radius: 40px;
+    border: 3px solid #ffd803;
+
+
+}
+.pai{
+    background-color: black;
+    padding-bottom: 50px;
+    display: flex;
+}
+.texto2{
+    align-self: center;
+    padding-right: 9px;
+    padding-left: 9px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.galeria{
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: black;
+ }
+ 
+ .fotogaleria{
+    height: 310px;
+    width: auto;
+    border-radius: 35px;
+    border: 3px solid #ffd803;
+ }
+ .textogaleria{
+    max-width: 450px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+    color: #fef6e4;
+    text-align: center;
+
+ }
+  
+    
+
+
+
+
 
 
 
@@ -64,11 +121,25 @@ header{
     color: white;
     font-size: 20px;
     text-align: center;
-
+    padding-top: 12px;
 }
 
 
-
-
-
+.texto2{
+    padding-left: 6px;
+    padding-right: 6px;
 }
+
+
+.box{
+    width: 390px;
+    height: 230px;
+}
+
+
+.textogaleria{
+    padding: 8px 8px;
+}
+
+
+ }
