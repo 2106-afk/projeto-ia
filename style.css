@@ -124,7 +124,7 @@ header{
     text-align: center;
     font-family: "poppins" Arial, Helvetica, sans-serif;
     color: #E0E0E0;
- }
+    max-width: 900px;
   
   
  
